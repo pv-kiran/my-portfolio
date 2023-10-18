@@ -1,12 +1,7 @@
-import { useEffect, useState } from "react";
 import { myProjects } from "../constants/project";
 import ProjectBox from "./ProjectBox";
 
 const Projects = () => {
-  // const [projects, setProjects] = useState([]);
-  // useEffect(() => {
-  //   setProjects(myProjects);
-  // });
   return (
     <div id="project_section">
       <h1 className="projectHeading">
